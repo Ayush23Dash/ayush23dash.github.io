@@ -1,0 +1,65 @@
+/* NAVBAR */
+@media only screen and (min-width: 992px)
+{
+  nav{
+    background-color: #0d0d0d;
+  }
+  .navbar-brand{
+   margin: 0 10%;
+   color:#fff;
+  }
+  .navbar-nav{
+    position: absolute;
+    right:25%;
+  }
+  .nav-item{
+    margin:0 5%;
+      color: #fff;
+  }
+}
+@media only screen and (max-width: 992px)
+{
+  .navbar{
+    background-color: #fff;
+  }
+  .navbar-brand{
+    color: #0d0d0d;
+  }
+  .navbar-toggler{
+    background-color: #0d0d0d;
+  }
+  .nav-link{
+    color:#0d0d0d;
+  }
+}
+/* NAVBAR END */
+/* WLCOME SECTION START */
+.welcome{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0d0d0d;
+  color:#fff;
+  text-align: center;
+   border-bottom-right-radius: 40%;
+   border-bottom-left-radius: 40%;
+}
+.btn {
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+}
+.btn-outline-custom{
+  border:2px solid #f5f5f5;
+}
+.btn-round{
+  border-radius: 30px;
+}
+.btn:hover{
+  background-color: #f5f5f5;
+}
+/* WELCOME SECTION END */
