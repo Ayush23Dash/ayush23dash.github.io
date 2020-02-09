@@ -138,6 +138,52 @@
   }
 }
 /* ABOUT ME END */
+/* FREELANCE START */
+.freelance{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #26282b;
+  color:#fbfbfb;
+  text-align: center;
+  padding: 3%;
+}
+.btn {
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+}
+.btn-custom{
+  background-color: #e65f78;
+  border:1px solid #e65f78;
+}
+/* FREELANCE END */
+/* PORTFOLIO START */
+.portfolio{
+  padding: 100px 0px;
+  background-color: #2e3135;
+  text-align: center;
+}
+
+/* PORTFOLIO END */
+/* CONTACT ME */
+.contact{
+  text-align: center;
+}
+.col-xl-3{
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+.col-xl-3 img{
+  background-color: orange;
+  border-radius: 50%;
+}
+/* CONTACT ME END */
 /* GO TO TOP BUTTON */
 #myBtn {
   display: none;
