@@ -19,7 +19,6 @@ function frameLooper()
 }
 frameLooper();
 
-
 jQuery(document).ready(function($) {
   // Scroll to the desired section on click
   // Make sure to add the `data-scroll` attribute to your `<a>` tag.
@@ -34,3 +33,24 @@ jQuery(document).ready(function($) {
   }
   $('[data-scroll]').on('click', scrollToSection);
 }(jQuery));
+
+mybutton = document.getElementById("myBtn");
+window.onscroll = function() {
+  {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+};
+
+function scrollToTop(scrollDuration) {
+    var scrollStep = -window.scrollY / (scrollDuration / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval);
+    },15);
+}
