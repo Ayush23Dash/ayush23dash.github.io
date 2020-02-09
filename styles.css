@@ -85,9 +85,9 @@
 @media only screen and (max-width:992px)
 {
   .about img{
-    width: 371px;
+    width: 271px;
     height: 272px;
-    margin-left:20px;
+    margin-left:60px;
   }
   .about1 br{
     display: none;
