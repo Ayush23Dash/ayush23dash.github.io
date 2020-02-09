@@ -82,12 +82,19 @@
   border-radius: .25rem;
   margin-left:20px;
 }
-@media only screen and (max-width:992px)
+.mdi{
+  padding: 8px;
+  margin:20px;
+}
+.circle{
+  border-radius: 50%;
+  background-color: red;
+}
+@media only screen and (max-width:768px)
 {
   .about img{
     width: 271px;
     height: 272px;
-    margin-left:60px;
   }
   .about1 br{
     display: none;
@@ -95,8 +102,32 @@
   .about2{
     display: flex;
     justify-content: center;
-
   }
-
+  .about1 h4{
+    margin-left: 4.9px;
+  }
+  .about1 p{
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .about img{
+    width: 271px;
+    height: 272px;
+  }
+  .about1 br{
+    display: none;
+  }
+  .about2{
+    display: flex;
+    justify-content: center;
+  }
+  .col-md-12{
+    margin-left: 65%;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+  }
 }
 /* ABOUT ME END */
