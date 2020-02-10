@@ -168,7 +168,30 @@
   background-color: #2e3135;
   text-align: center;
 }
-
+.pbox {
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}
+.hidbox{
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  height: 100%;
+}
+.pbox:hover > .hidbox{
+  top:0;
+}
+.panchor a{
+  text-decoration: none;
+}
+@media only screen and (max-width:768px)
+{
+  .prow{
+    display: flex;
+    justify-content: center;
+  }
+}
 /* PORTFOLIO END */
 /* CONTACT ME */
 .contact{

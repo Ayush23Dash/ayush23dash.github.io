@@ -82,6 +82,72 @@
 <div class="portfolio" id="portfolio">
 <h2 style="font-family: 'Montserrat', sans-serif;color:#fbfbfb;">My Works</h2>
 <p style="font-family: 'Nunito', sans-serif;color:#a0a0ac;">Here you can look at the list of projects that I have worked on till now</p>
+<div class="row prow" style="margin-right:0;">
+  <div class="col-lg-4 col-md-4 pbox" id="img" onmouseover="fadeImg()" onmouseleave="normalImg()">
+    <a target="_blank" href="https://ayush23dash.github.io/Special-Olympics"><img style="position:relative;width: 15.5rem;
+  height: 10rem;
+  padding-bottom: 10px;"src="images/work1.png" alt="hi">
+  </a>
+  <div class="hidbox">
+  <a style="text-decoration: none" target="_blank" href="https://ayush23dash.github.io/Special-Olympics/"><h5 style="color:#fff;"><strong>Special Olympics</strong></h5></a>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-4 pbox" id="img1" onmouseover="fadeImg1()" onmouseleave="normalImg1()">
+    <a target="_blank" href="https://ayush23dash.github.io/Shankar-Fuel-Junction"><img style="width: 15.5rem;
+  height: 10rem;
+  padding-bottom: 10px;"src="images/work2.png" alt="">
+</a>
+  <div class="hidbox">
+    <a style="text-decoration: none" target="_blank" href="https://ayush23dash.github.io/Shankar-Fuel-Junction">
+  <h5 style="color:#fff;"><strong>Shankar Fuel Junction</strong></h5>
+</a>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-4 pbox" id="img2" onmouseover="fadeImg2()" onmouseleave="normalImg2()">
+    <a target="_blank" href="https://github.com/Ayush23Dash/ToDoListWithDB">
+    <img style="width: 15.5rem;
+  height: 10rem;
+  padding-bottom: 10px;"src="images/work3.png" alt="">
+</a>
+  <div class="hidbox">
+    <a style="text-decoration: none" target="_blank" href="https://github.com/Ayush23Dash/ToDoListWithDB">
+  <h5 style="color:#fff;"><strong>To Do List(DB)</strong></h5>
+</a>
+  </div>
+  </div>
+</div>
+
+<!-- 2nd Row -->
+<!-- <div class="row prow" style="margin-right:0;">
+  <div class="col-lg-4 col-md-4 pbox" id="img3" onmouseover="fadeImg3()" onmouseleave="normalImg3()">
+    <img style="position:relative;width: 15.5rem;
+  height: 10rem;
+  padding-bottom: 10px;"src="galleryImgs/1.jfif" alt="">
+  <div class="hidbox">
+  <h5 style="color:#fff;"><strong>Hello World</strong></h5>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-4 pbox" id="img4" onmouseover="fadeImg4()" onmouseleave="normalImg4()">
+    <img style="width: 15.5rem;
+  height: 10rem;
+  padding-bottom: 10px;"src="galleryImgs/1.jfif" alt="">
+  <div class="hidbox">
+  <h5 style="color:#fff;"><strong>Hello World</strong></h5>
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-4 pbox" id="img5" onmouseover="fadeImg5()" onmouseleave="normalImg5()">
+    <img style="width: 15.5rem;
+  height: 10rem;
+  padding-bottom: 10px;"src="galleryImgs/1.jfif" alt="">
+  <div class="hidbox">
+  <h5 style="color:#fff;"><strong>Hello World</strong></h5>
+  </div>
+  </div>
+</div> -->
+<br><br><br>
+<div class="panchor">
+  <a href="#"><h3>View More...</h3></a>
+</div>
 </div>
 <!-- PORTFOLIO END -->
 <hr>
@@ -122,6 +188,74 @@
 <!-- GO TO TOP BUTTON-->
  <button onclick="scrollToTop(600)" id="myBtn" title="Go to top"><img src="images/totop.png"></button>
  <!--END OF GO TO TOP BUTTON-->
+
+ <script type="text/javascript">
+const mq = window.matchMedia( "(min-width: 700px)" );
+var div = document.getElementById("img");
+var div1 = document.getElementById("img1");
+var div2 = document.getElementById("img2");
+var div3 = document.getElementById("img3");
+var div4 = document.getElementById("img4");
+var div5 = document.getElementById("img5");
+console.log(mq);
+if(mq.matches === true){
+  function fadeImg(){
+     div.style.opacity = "0.5";
+  }
+  function normalImg()
+  {
+    div.style.opacity = "1";
+  }
+
+  function fadeImg1(){
+     div1.style.opacity = "0.5";
+  }
+  function normalImg1()
+  {
+    div1.style.opacity = "1";
+  }
+
+  function fadeImg2(){
+     div2.style.opacity = "0.5";
+
+  }
+  function normalImg2()
+  {
+    div2.style.opacity = "1";
+  }
+
+  function fadeImg3(){
+     div3.style.opacity = "0.5";
+
+  }
+  function normalImg3()
+  {
+    div3.style.opacity = "1";
+  }
+
+  function fadeImg4(){
+     div4.style.opacity = "0.5";
+
+  }
+  function normalImg4()
+  {
+    div4.style.opacity = "1";
+  }
+
+  function fadeImg5(){
+     div5.style.opacity = "0.5";
+
+  }
+  function normalImg5()
+  {
+    div5.style.opacity = "1";
+  }
+
+}
+else{
+  div.style.color = "#fff";
+}
+</script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="scripts.js"> </script>
 
