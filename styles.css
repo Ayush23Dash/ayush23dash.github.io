@@ -228,6 +228,9 @@
   height:25rem;
   background: linear-gradient(#bdc3c7,#2c3e50);
 }
+.card-body a:hover{
+  color:#26282b;
+}
 /* BLOGGS END */
 /* CONTACT ME */
 .contact{
