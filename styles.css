@@ -21,10 +21,6 @@
 /* SCROLL BAR END */
 
 /* NAVBAR */
-.navbar{
-
-
-}
 @media only screen and (min-width: 992px)
 {
   nav{
@@ -215,6 +211,24 @@
   }
 }
 /* PORTFOLIO END */
+/* BLOGS START */
+.blog{
+  background-color: #26282b;
+  text-align: center;
+  color:#fbfbfb;
+}
+.blog h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.blog p{
+  font-family: 'Nunito', sans-serif;
+    color: #a0a0ac;
+}
+.card{
+  height:25rem;
+  background: linear-gradient(#bdc3c7,#2c3e50);
+}
+/* BLOGGS END */
 /* CONTACT ME */
 .contact{
   text-align: center;
