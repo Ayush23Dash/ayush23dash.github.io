@@ -1,5 +1,3 @@
-
-
   var toggle = document.getElementById("toggle")
   toggle.innerHTML="<img src=\"https://www.solodev.com/assets/anchor/arrow-down.png\" width=\"20px\" height=\"25px\">";
 
@@ -18,6 +16,7 @@ function frameLooper()
   loopTimer = setTimeout('frameLooper()',130);
 }
 frameLooper();
+
 
 jQuery(document).ready(function($) {
   // Scroll to the desired section on click
