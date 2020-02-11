@@ -14,6 +14,6 @@ function frameLooper()
 }
 frameLooper();
 
-var text = "Dandelion is a modern theme for the Ghost blogging platform. It is fully responsive and loads blazing fast! This theme features modern animations, a classic serif font, custom post layouts and more.";
+var text = "Hi,in this page you can take an indepth view of all of my projects that I have worked on.";
 var txt = document.getElementById("type");
 setTimeout(function(){txt.innerHTML = text;},2900);

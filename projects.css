@@ -81,6 +81,8 @@ body{
   width: 60%;
   text-align: center;
   box-shadow: 5px 1px 8px 10px #888888;
+  position: relative;
+  bottom: 4rem;
 }
 .p1,.p2{
   color:#fff;
@@ -99,6 +101,8 @@ body{
 @media only screen and (max-width:992px) {
   .project{
     width:80vw;
+    position: relative;
+    bottom: -20px;
   }
   .project img{
     width: 90%;
