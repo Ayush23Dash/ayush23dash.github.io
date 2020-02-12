@@ -89,16 +89,29 @@ body{
 .p1,.p2{
   color:#fff;
 }
-.project img{
-  width:100%;
+.img1{
+  width:150%;
   height:160%;
   transition: width 2s, height 2s, transform 2s;
   padding-bottom: 20rem;
 }
-.project img:hover{
-  width: 100%;
+.img2{
+  position:relative;
+  left:-110px;
+  width:150%;
+  height:160%;
+  transition: width 2s, height 2s, transform 2s;
+  padding-bottom: 20rem;
+}
+.img1:hover{
+  width: 150%;
  height: 160%;
  transform: rotate(15deg);
+}
+.img2:hover{
+  width: 150%;
+ height: 160%;
+ transform: rotate(-15deg);
 }
 @media only screen and (max-width:992px) {
   .project{
@@ -115,6 +128,20 @@ body{
     width: 90%;
    height: 90%;
    transform: rotate(15deg);
+  }
+  .prow1{
+    /* padding-top:30%; */
+
+  }
+  .img1{
+   /* margin-top: -40em; */
+    /* padding-bottom: 30%; */
+  }
+  .img2{
+   left:0;
+  }
+  .project .col-lg-8 br{
+    display: none;
   }
 }
 /* PROJECTS END */
