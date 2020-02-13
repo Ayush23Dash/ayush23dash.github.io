@@ -50,6 +50,9 @@ body{
   height: 15rem;
 }
 @media only screen and (max-width:992px) {
+  .background img{
+    width: 355px
+  }
   .background h4{
     font-size: 14px;
     text-align: center;
@@ -90,6 +93,8 @@ body{
   color:#fff;
 }
 .img1{
+  position: relative;
+  left: -110px;
   width:150%;
   height:160%;
   transition: width 2s, height 2s, transform 2s;
@@ -129,15 +134,7 @@ body{
    height: 90%;
    transform: rotate(15deg);
   }
-  .prow1{
-    /* padding-top:30%; */
-
-  }
-  .img1{
-   /* margin-top: -40em; */
-    /* padding-bottom: 30%; */
-  }
-  .img2{
+  .img1,.img2{
    left:0;
   }
   .project .col-lg-8 br{
