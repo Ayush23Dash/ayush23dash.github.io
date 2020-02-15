@@ -53,7 +53,7 @@ body{
 }
 @media only screen and (max-width:992px) {
   .background img{
-    width: 100vw;
+    width: 355px
   }
   .background h4{
     font-size: 14px;
@@ -132,7 +132,7 @@ body{
   .text {
     background-color: #4CAF50;
     color: white;
-    font-size: 40px;
-    padding: 16px 32px;
+    font-size: 16px;
+    padding: 8px 16px;
   }
 }
