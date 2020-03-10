@@ -1,5 +1,7 @@
   var toggle = document.getElementById("toggle")
-  toggle.innerHTML="<img src=\"https://www.solodev.com/assets/anchor/arrow-down.png\" width=\"20px\" height=\"25px\">";
+  toggle.innerHTML="<img src=\"https://cdn2.vectorstock.com/i/1000x1000/64/21/dollar-arrow-decrease-icon-money-arrow-symbol-vector-23116421.jpg\" width=\"20px\" height=\"25px\">";
+
+  // https://www.solodev.com/assets/anchor/arrow-down.png
 
 var myText = "I'm Ayush Shankar";
 var myArray = myText.split("");
