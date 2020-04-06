@@ -174,3 +174,11 @@ body{
     display: none;
   }
 }
+
+div.ex1 {
+  background-color:crimson;
+  /*width: 80%;*/
+  /*text-align: center;*/
+  height: 1000px;
+  overflow: auto;
+}
