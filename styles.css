@@ -238,12 +238,12 @@
 .contact{
   text-align: center;
 }
-.col-xl-3{
+.col-xl-4{
   color:#fff;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 10px;
 }
-.col-xl-3 img{
+.col-xl-4 img{
   background-color: orange;
   border-radius: 50%;
 }
